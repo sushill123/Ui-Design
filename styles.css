@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  /* width: 100vw;
+  height: 100vh; */
+  font-family: "Inter", sans-serif;
+}
+
+/* STYLING MAIN DIV HERE .. */
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* STYLING TOP DIV HERE -- */
+.top {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  background: url(https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 50% 60%;
+}
+
+/* OVERLAY MAIN DIV  */
+.overlay {
+  width: 100vw;
+  /* background-color: red; */
+  padding: 0 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* DIV OTHER TEXT PARAGRAPH */
+.other-text {
+  display: flex;
+}
+
+.other-text,
+.subheading {
+  font-size: 12px;
+  width: 50vw;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons i {
+  font-size: 20px;
+}
+
+/* NOISE HEADING STYLE */
+.noise {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+/* STYLING BOTTOM DIV HERE --  */
+
+.bottom {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+}
+
+.bone {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-content {
+  margin: 0 30px;
+}
+
+.one-content .oSubheading {
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.btwo {
+  width: 25vw;
+  height: 100%;
+  background: url(https://media.istockphoto.com/id/1426284872/photo/3d-yellow-headphones.webp?s=170667a&w=0&k=20&c=jsxgn26qoir4h8mzRoxZ38HTTg4kE03N3EpIZWywyog=);
+  background-position: 20% 60%;
+  background-size: cover;
+}
+
+.bthree {
+  width: 25vw;
+  height: 100%;
+  background-color: rgb(157, 154, 148);
+}
+
+.threetop {
+  width: 100%;
+  height: 50%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.three-content {
+  margin: 30px;
+  color: #fff;
+}
+.three-content .threeSubheading {
+  font-size: 12px;
+}
+
+.threebottom {
+  width: 100%;
+  height: 50%;
+  background: url(https://media.istockphoto.com/id/1469957547/photo/pink-headphones-on-pink-background.webp?s=170667a&w=0&k=20&c=0-KukhwWPylydCVT2QMKGTUKndrHGkxqHCXyax_rU-s=);
+  background-position: 40% 30%;
+  background-size: cover;
+}
+
+.bfour {
+  width: 25vw;
+  height: 100%;
+  background-color: rgba(237, 126, 106, 0.406);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.four-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.four-content img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
